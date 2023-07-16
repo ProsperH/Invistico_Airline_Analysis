@@ -49,6 +49,9 @@ This was done using a Pivot Table to get the Satisfaction and Count of Satisfact
 
 All were calculated with Pivot Tables and represented using Column Charts.
 
+The Age column was grouped using the Nested IF formula `=IF([@Age]>=60,"Old",IF([@Age]>=36,"Middle Age",IF([@Age]>=20,"Adult",IF([@Age]>=13,"Teen","Child"))))`. 
+
+
 5. Service Ratings.
 
 Used Pivot Table to get the data, then `=TRANSPOSE(N4:R4)` to arrange them vertically.
@@ -75,7 +78,7 @@ This is the finished work.
 
 I'm so proud of myself 😁
 
-![](InvisticoA.jpg)
+![](InvisticoAirl.jpg)
 
 ### Insight and Recommendation
 Although a greater percentage of customers expressed satisfaction, based on the dashboard data, it is evident that a significant portion of the recent customers expressed dissatisfaction and are unlikely to return. Therefore, it is crucial for this company to take into account the recommendations and strive to enhance their services in order to provide a better customer experience for all.
